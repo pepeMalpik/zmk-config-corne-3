@@ -88,7 +88,7 @@
             bindings = <
 &kp TAB    &kp TILDE  &kp AT  &kp HASH  &kp LS(DQT)   &kp SQT          &kp LS(PLUS)  &kp N1  &kp N2  &kp N3  &kp FSLH       &kp BSPC
 &kp LSHFT  &trans     &trans  &kp DOT   &kp LS(EXCL)  &kp LS(QMARK)    &kp MINUS     &kp N4  &kp N5  &kp N6  &kp STAR       &kp RET
-&kp LGUI   &trans     &trans  &trans    &kp LT        &kp GT           &kp DOT       &kp N7  &kp N8  &kp N9  &kp LS(PRCNT)  &kp EQUAL
+&kp LGUI   &trans     &tog 1  &tog 0    &kp LT        &kp GT           &kp DOT       &kp N7  &kp N8  &kp N9  &kp LS(PRCNT)  &kp EQUAL
                               &kp LALT  &trans        &kp SPACE        &kp RET       &trans  &kp N0
             >;
         };
@@ -96,8 +96,8 @@
         win_3 {
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &kp BSLH      &kp LBKT      &kp RBKT      &kp FSLH  &trans  &tog 0
-&tog 0          &trans        &trans        &trans        &trans         &trans          &kp LS(AMPS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp UP    &trans  &tog 0
-&kp LGUI        &trans        &trans        &trans        &kp LS(COLON)  &trans          &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)  &kp DOWN  &trans  &kp LALT
+&tog 0          &trans        &trans        &trans        &trans         &trans          &kp LS(AMPS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp UP    &trans  &tog 1
+&kp LGUI        &trans        &trans        &trans        &kp LS(COLON)  &trans          &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)  &kp DOWN  &trans  &tog 0
                                             &kp LCTRL     &trans         &kp SPACE       &kp RET       &trans        &kp DOWN
             >;
         };
