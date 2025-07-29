@@ -96,7 +96,7 @@
         win_3 {
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &kp BSLH      &kp LBKT      &kp RBKT      &kp FSLH  &trans  &tog 0
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans         &trans          &kp LS(AMPS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp UP    &trans  &kp RSHFT
+&tog 0          &trans        &trans        &trans        &trans         &trans          &kp LS(AMPS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp UP    &trans  &tog 0
 &kp LGUI        &trans        &trans        &trans        &kp LS(COLON)  &trans          &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)  &kp DOWN  &trans  &kp LALT
                                             &kp LCTRL     &trans         &kp SPACE       &kp RET       &trans        &kp DOWN
             >;
